@@ -1,5 +1,14 @@
+*{
+  height: 100%;
+}
+.root{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
