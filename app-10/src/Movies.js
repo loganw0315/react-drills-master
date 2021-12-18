@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 
+
 const Movies = (props) => {
     
     const [movies, setMovies] = useState('')
@@ -20,7 +21,7 @@ const Movies = (props) => {
             <div className="movies-list">
             {movies.length > 1 && movies.map((movie, index) => (
                 <Link key={index} to={`/details/${movie.id}`}>
-                  <img width="100" src={movie.image} />
+                  <img className="movie-thumb" width="100" src={movie.image} />
                 </Link>
             ))}
             </div>

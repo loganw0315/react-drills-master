@@ -1,5 +1,10 @@
+html{
+  background-color: rgb(99, 2, 99);
+}
 .App {
   text-align: center;
+  height: auto;
+  width:auto;
 }
 
 .App-logo {
@@ -35,4 +40,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.movie-thumb{
+  margin: 2px;
+}
+
+.home-link{
+  color: black
 }
